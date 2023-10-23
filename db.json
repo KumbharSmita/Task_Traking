@@ -1,0 +1,77 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "Smita",
+      "password": "Smitarani1$",
+      "email": "smita@gmail.com",
+      "gender": "female",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "Employee",
+      "name": "Priya",
+      "password": "Priya121$",
+      "email": "priya12@gmail.com",
+      "gender": "female",
+      "role": "active",
+      "isactive": true
+    },
+    {
+      "id": "Employee1",
+      "name": "Jagriti",
+      "password": "Jagariti1$",
+      "email": "jagriti@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "Employee2",
+      "name": "Sourabh",
+      "password": "Sourabh1$",
+      "email": "sourabh@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "employee5",
+      "name": "Kailash",
+      "password": "Kailash1$",
+      "email": "kailash@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "Employee6",
+      "name": "Navneet",
+      "password": "Navneet1$",
+      "email": "navneet@gmai.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "Employee7",
+      "name": "saket",
+      "password": "Saketkumar1$",
+      "email": "saket@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    }
+  ],
+  "role": [
+    {
+      "code":"staff",
+      "name":"Staff"
+    },
+    {
+      "code":"quality",
+      "name":"Qulity"
+    }
+  ]
+}
