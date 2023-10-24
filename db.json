@@ -24,8 +24,8 @@
       "password": "Jagariti1$",
       "email": "jagriti@gmail.com",
       "gender": "female",
-      "role": "",
-      "isactive": false
+      "role": "quality",
+      "isactive": true
     },
     {
       "id": "Employee2",
@@ -66,12 +66,12 @@
   ],
   "role": [
     {
-      "code":"staff",
-      "name":"Staff"
+      "code": "staff",
+      "name": "Staff"
     },
     {
-      "code":"quality",
-      "name":"Qulity"
+      "code": "quality",
+      "name": "Qulity"
     }
   ]
 }
