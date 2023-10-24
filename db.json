@@ -33,8 +33,8 @@
       "password": "Sourabh1$",
       "email": "sourabh@gmail.com",
       "gender": "male",
-      "role": "",
-      "isactive": false
+      "role": "staff",
+      "isactive": true
     },
     {
       "id": "employee5",
