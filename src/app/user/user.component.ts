@@ -5,6 +5,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatDialog } from '@angular/material/dialog';
 import { UpdatepopupComponent } from '../updatepopup/updatepopup.component';
+import { Subscriber } from 'rxjs';
 
 @Component({
   selector: 'app-user',
@@ -35,7 +36,7 @@ export class UserComponent {
   displayedColumns: string[] = ['username', 'name', 'email','role', 'status','action'];
 
   updateuser(code:any){
-    this.dialog.open(UpdatepopupComponent,{
+    const popup= this.dialog.open(UpdatepopupComponent,{
       enterAnimationDuration:'1000ms',
       exitAnimationDuration:'500ms',
       width:'50%',
@@ -43,9 +44,15 @@ export class UserComponent {
         usercode:code
       }
     })
+    popup.afterClosed().subscribe(res=>{
+      this.Loaduser();
+
+    });
 
   }
   opendialog(){
+
+
 
   }
 

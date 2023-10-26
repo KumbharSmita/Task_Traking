@@ -1,0 +1,8 @@
+.btnofle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnofle .card{
+  padding: 9px;
+}
