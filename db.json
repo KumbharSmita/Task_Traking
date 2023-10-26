@@ -16,7 +16,7 @@
       "email": "priya12@gmail.com",
       "gender": "female",
       "role": "active",
-      "isactive": true
+      "isactive": false
     },
     {
       "id": "Employee1",
@@ -34,7 +34,7 @@
       "email": "sourabh@gmail.com",
       "gender": "male",
       "role": "staff",
-      "isactive": true
+      "isactive": false
     },
     {
       "id": "employee5",
@@ -62,6 +62,15 @@
       "gender": "male",
       "role": "",
       "isactive": false
+    },
+    {
+      "id": "tester",
+      "name": "Aishwarya",
+      "password": "Aishwarya1$",
+      "email": "Ak@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": false
     }
   ],
   "role": [
@@ -72,6 +81,13 @@
     {
       "code": "quality",
       "name": "Qulity"
+    }
+  ],
+
+  "tasks":[{
+    "id":1,
+    "task_name":"Subscibe to codelogic"
+
     }
   ]
 }
