@@ -27,11 +27,6 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
     UpdatepopupComponent,
     DashboardComponent,
 
-
-
-
-
-
   ],
   imports: [
     BrowserModule,
@@ -43,10 +38,6 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
     ToastrModule.forRoot(),
     MatCheckboxModule,
     FormsModule
-
-
-
-
 
   ],
 
