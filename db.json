@@ -1,7 +1,7 @@
 {
   "user": [
     {
-      "id": "admin",
+      "id": "A1",
       "name": "Smita",
       "password": "Smitarani1$",
       "email": "smita@gmail.com",
@@ -16,7 +16,7 @@
       "email": "priya12@gmail.com",
       "gender": "female",
       "role": "active",
-      "isactive": false
+      "isactive": true
     },
     {
       "id": "Employee1",
@@ -84,18 +84,6 @@
     }
   ],
   "tasks": [
-    {
-      "id": 2,
-      "task_name": "Project Discuss With guide"
-    },
-    {
-      "id": 3,
-      "task_name": "Study Design Patterns"
-    },
-    {
-      "id": 4,
-      "task_name": "Learn Java"
-    },
     {
       "id": 5,
       "task_name": "create Api based Application"
