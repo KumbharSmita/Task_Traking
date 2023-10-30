@@ -10,67 +10,31 @@
       "isactive": true
     },
     {
-      "id": "Employee",
+      "id": "Emp1",
       "name": "Priya",
-      "password": "Priya121$",
+      "password": "Emp1234$",
       "email": "priya12@gmail.com",
       "gender": "female",
-      "role": "active",
+      "role": "staff",
       "isactive": true
     },
     {
-      "id": "Employee1",
+      "id": "Emp2",
       "name": "Jagriti",
-      "password": "Jagariti1$",
+      "password": "Emp21234$",
       "email": "jagriti@gmail.com",
       "gender": "female",
-      "role": "quality",
+      "role": "staff",
       "isactive": true
     },
     {
-      "id": "Employee2",
+      "id": "Emp3",
       "name": "Sourabh",
-      "password": "Sourabh1$",
+      "password": "Emp31234$",
       "email": "sourabh@gmail.com",
       "gender": "male",
       "role": "staff",
-      "isactive": false
-    },
-    {
-      "id": "employee5",
-      "name": "Kailash",
-      "password": "Kailash1$",
-      "email": "kailash@gmail.com",
-      "gender": "male",
-      "role": "",
-      "isactive": false
-    },
-    {
-      "id": "Employee6",
-      "name": "Navneet",
-      "password": "Navneet1$",
-      "email": "navneet@gmai.com",
-      "gender": "male",
-      "role": "",
-      "isactive": false
-    },
-    {
-      "id": "Employee7",
-      "name": "saket",
-      "password": "Saketkumar1$",
-      "email": "saket@gmail.com",
-      "gender": "male",
-      "role": "",
-      "isactive": false
-    },
-    {
-      "id": "tester",
-      "name": "Aishwarya",
-      "password": "Aishwarya1$",
-      "email": "Ak@gmail.com",
-      "gender": "female",
-      "role": "",
-      "isactive": false
+      "isactive": true
     }
   ],
   "role": [
