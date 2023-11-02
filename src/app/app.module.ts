@@ -14,6 +14,7 @@ import { UserComponent } from './user/user.component';
 import { UpdatepopupComponent } from './updatepopup/updatepopup.component';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
+import { ProfileComponent } from './profile/profile.component';
 // import { ToDoListComponent } from './to-do-list/to-do-list.component';
 
 
@@ -26,6 +27,7 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
     UserComponent,
     UpdatepopupComponent,
     DashboardComponent,
+    ProfileComponent,
 
   ],
   imports: [
