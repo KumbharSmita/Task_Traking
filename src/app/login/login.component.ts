@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
+
   constructor(private builder: FormBuilder,private toastr:ToastrService,
     private service:AuthService,private router:Router){
       sessionStorage.clear();
@@ -28,14 +29,7 @@ export class LoginComponent {
   proceedlogin(){
     if(this.loginform.valid){
 
-    //   this.service.Proceedregistration(this.loginform.value).subscribe(res=>{
-    //       this.toastr.success('Please Contact Admin for enable Access','Registerd successfully')
-    //       this.router.navigate(['login']);
-    //   });
 
-    // }
-    // else{
-    //   this.toastr.warning('Please enter valid data');
     this.service.GetbyCode(this.loginform.value.username).subscribe(res=>{
       this.userdata=res;
       console.log(this.userdata);
@@ -44,8 +38,6 @@ export class LoginComponent {
             sessionStorage.setItem('username',this.userdata.id);
             sessionStorage.setItem('userrole',this.userdata.role);
             this.router.navigate(['/']);
-
-
           }else{
             this.toastr.error('Please contact admin','In Active User')
           }

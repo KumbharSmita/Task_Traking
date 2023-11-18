@@ -13,6 +13,7 @@ import { Subscriber } from 'rxjs';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent {
+
   constructor(private service: AuthService,private dialog:MatDialog){
     this.Loaduser();
 
